@@ -11,7 +11,7 @@ const Main = () => {
         <div className="main_content">
           <div className="text">
             <p>Hello everyone!</p>
-            <h1>I am Siri</h1>
+            <h1 style={{textAlign:"center", marginLeft:"15px"}}> I  am Siri</h1>
             <p>Front-end Developer & Designer</p>
 
             <div className="icons">
@@ -20,12 +20,16 @@ const Main = () => {
               <a href="https://github.com/SiriGuduru" target="_blank" rel="noopener noreferrer"><GitHub className="icon" /></a>
             </div>
 
-            <div className="buttons">
-              <Link to="/contact"><button>Contact Me</button></Link>
-              <a href="mailto:your-email@gmail.com?subject=Hiring%20Inquiry"><button>Hire Me</button></a>
-            </div>
-          </div>
+           
+               
+         
         </div>
+         </div>
+            <div className="buttons">
+              <Link to="/contact" ><button>Contact Me</button></Link>
+              <a href="mailto:siriguduru9@gmail.com?subject=Hiring%20Inquiry"  className="hide"><button>Hire Me</button></a>
+                <a href="/documents/resume.pdf" download="Siri Guduru resume"><button>Resume</button ></a>
+            </div>
 
         <div className="main_img">
           <img src={mypic} alt="My Profile" />
