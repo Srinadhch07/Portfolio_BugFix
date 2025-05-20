@@ -1,4 +1,3 @@
-import React from 'react';
 import Contact from '../Components/Contact';
 import Header from '../Components/Header';
 /*import './styles/ContactPage.css';*/
