@@ -10,7 +10,7 @@ const Contact =()=>{
     const subject = encodeURIComponent("Sirilu message from portfolio");
     const body = encodeURIComponent(`Hi ${name}\nPhone: ${phone}\nMessage: ${message}`);
 
-    const mailtoLink = `mailto:$siriguduru9@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:siriguduru9@gmail.com?subject=${subject}&body=${body}`;
 
     const handleSubmit = (e) => {
         e.preventDefault();
